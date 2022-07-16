@@ -1,0 +1,23 @@
+Abra o explorer no seu sistema operacional.
+
+Vá até seu disco "C" e crie uma pasta da sua escolha.
+
+Clique com o botão direito do mouse sobre ela.
+
+Aparecerá várias opções para escolher clique na opção "Git Bash Here".
+
+Após isso abrirá o "Git Bash" já na pasta escolhida.
+
+Vá para o "GitHub" entre no repositório de sua preferência.
+
+Escolha a opção de clone "HTTPS, SSH ou GitHub CLI".
+
+Copie o link de uma dessas opções. 
+
+Volte ao "Git Bash" digite o comando 👉 "git clone" (link).
+
+Se tudo ocorrer bem não aparecerá nenhuma mensagem referente a erro.
+
+
+
+ 
