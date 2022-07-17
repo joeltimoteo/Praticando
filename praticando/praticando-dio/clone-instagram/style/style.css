@@ -30,39 +30,9 @@ body{
     align-items: center;
     justify-content: center;
     width: 40%;
-    padding-left: 50px;
-}
+    padding-left: -100px;
 
-section {
-    position: relative;
-  }
-  
-  section img {
-      position: absolute;
-  }
-  
-  .top {
-      animation-name: fade;
-      animation-timing-function: ease-in-out;
-      animation-iteration-count: infinite;
-      animation-duration: 1s;
-      animation-direction: alternate;
-  }
-  
-  @keyframes fade {
-      0% {
-          opacity: 1;
-      }
-      25% {
-          opacity: 1;
-      }
-      75% {
-          opacity: 0;
-      }
-      100% {
-          opacity: 0;
-      }
-  }
+}
 
 .instagram-phone img {
     margin-right: 20%;
@@ -108,6 +78,36 @@ section {
 .profile-photo img{
     height: 100px;
     width: 100px;
+
+}
+
+#fundo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#img1 {
+    position: absolute;
+    top: 15px;
+    left: 33.2%;
+    width: 165.5px;
+    height: 350.3px;
+    
+
+}
+#phone {
+    position: relative;
+    width: 300px;
+    height: 405px;
+    background-image: url(../img/tela-sem\ fundo.png); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 405px;
+    max-height: 405px;
+    max-width: 300px;
+    min-width: 300px;
+
 
 }
 
@@ -193,5 +193,21 @@ section {
     .group{
         border: 1px solid transparent;
     }
+
+    }
+
+
+.fade {
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
+.fade-out {
+  opacity: 0;
+}
+
+.fade-in {
+  opacity: 1;
+}
