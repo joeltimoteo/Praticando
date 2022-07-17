@@ -10,7 +10,7 @@
 body{
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(86, 86, 86);
     margin: 0;
     padding: 0;
     display: flex;
@@ -53,10 +53,11 @@ body{
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color:#fffafa;
+    background-color:#b3b3b3d6;
     width: 100%;
     padding: 1.3rem 0;
-    border:1px solid #d3d3d3;
+    border:1px solid #35353526;
+    border-radius: 2px;
 }
 
 .group:nth-child(1) {
@@ -156,14 +157,15 @@ body{
     height: 3rem;
     width: 10rem;
     background-size: cover;
+    
 }
 
 .app-download:nth-child(1) {
-    background-image: url('img/apple-button.png');
+    background-image: url('../img/AppStore.png');
 }
 
 .app-download:nth-child(2) {
-    background-image: url(img/googleplay-button.png);
+    background-image: url(../img/GooglePlay.png);
 }
 
 /*media queries*/
